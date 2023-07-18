@@ -6,7 +6,7 @@
 .primary-color{
     color:  #FD6E0A;
 }
-.container{
+.container {
     width: 1140px;
     margin: auto;
 }
@@ -99,6 +99,7 @@ header{
     color: #181818;
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
 }
 .section-description{
     color: #757575;
@@ -152,4 +153,45 @@ header{
     line-height: 28px;
     width: 201px;
     margin-top: 20px;
+}
+/* Resume Section */
+.resume-section{
+    padding: 130px 0 113px;
+}
+.resume-details-wraper{
+    display: flex;
+    margin-top: 113px;
+    gap: 24px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item {
+    padding: 30px 47px 30px 0;
+    border-bottom: 1px solid #D1D1D1;
+}
+.resume-item:last-child{
+    border-bottom: none;
+}
+.item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.item-subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.item-description{
+    color: #757575;
+    line-height: 28px;
+    width: 511px !important;
+}
+.resume-section .primary-btn{
+    margin: auto;
 }
