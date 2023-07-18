@@ -85,3 +85,41 @@ header{
     bottom: -5px;
     left: 35px;
 }
+/* About Me */
+.about-me{
+    padding: 130px 0;
+}
+.about-me-content{
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+    border-radius: 10px;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin: 30px 0;
+    line-height: 30px;
+}
+.about-info-wraper{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+    gap: 50;
+}
+.about-info h4{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-info p{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
