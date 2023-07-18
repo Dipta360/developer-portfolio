@@ -28,6 +28,13 @@
     margin-left: 30px;
 }
 /* Header Menu */
+header{
+    padding-top: 50px;
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 15px center, bottom right;
+}
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -53,4 +60,28 @@
 /* Banner */
 .header-banner{
     display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+.banner-subtitle{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    width: 585px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.banner-image img {
+    position: relative;
+    bottom: -5px;
+    left: 35px;
 }
